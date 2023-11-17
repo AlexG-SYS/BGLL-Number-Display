@@ -1,0 +1,26 @@
+<!-- admin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Interface</title>
+</head>
+<body>
+    <label for="numberInputs">Enter 8 Numbers:</label>
+    <div>
+        <input type="number" id="numberInput1">
+        <input type="number" id="numberInput2">
+        <input type="number" id="numberInput3">
+        <input type="number" id="numberInput4">
+        <input type="number" id="numberInput5">
+        <input type="number" id="numberInput6">
+        <input type="number" id="numberInput7">
+        <input type="number" id="numberInput8">
+    </div>
+    <button onclick="updateNumbers()">Update</button>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
