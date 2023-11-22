@@ -4,6 +4,7 @@
     "socket.io": "^4.7.2"
   },
   "scripts": {
+    "build": "echo 'Building the app...'",
     "start": "node server.js"
   }
 }
