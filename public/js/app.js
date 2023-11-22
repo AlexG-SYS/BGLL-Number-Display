@@ -1,5 +1,5 @@
 // app.js
-const socket = io('http://localhost:3000');
+const socket = io('https://bgll-display.netlify.app/');
 
 function updateNumbers() {
     const numbers = [
