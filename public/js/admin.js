@@ -1,5 +1,5 @@
 // admin.js
-const socket = io('https://bgll-display.netlify.app/admin'); // Replace with your Netlify site URL
+const socket = io('https://bgll-display.netlify.app'); 
 
 function updateNumbers() {
     const numbers = [
